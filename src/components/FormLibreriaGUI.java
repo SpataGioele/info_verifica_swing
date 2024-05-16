@@ -2,10 +2,8 @@ package components;
 
 import java.awt.*;
 import javax.swing.*;
-import logic.Libreria;
 
 public class FormLibreriaGUI extends JPanel {
-    private Libreria libreria;
     private JLabel l1;
     private JLabel l2;
     private JLabel l3;
@@ -16,8 +14,6 @@ public class FormLibreriaGUI extends JPanel {
     private JLabel result;
 
     public FormLibreriaGUI() {
-        libreria = new Libreria();
-
         // labels
         l1 = new JLabel("Isbn: ");
         l2 = new JLabel("Titolo: ");
